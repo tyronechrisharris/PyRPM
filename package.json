@@ -16,8 +16,7 @@
     },
     "main": "background.js",
     "dependencies": {
-        "chart.js": "^2.8.0",
-        "electron-chartjs": "^1.0.0",
+        "chart.js": "^2.9.4",
         "electron-is-dev": "^1.0.1",
         "jquery": "^3.4.1",
         "material-design-icons": "^3.0.1",
@@ -26,11 +25,11 @@
         "moment": "^2.23.0",
         "net": "^1.0.2",
         "url": "^0.11.0",
-        "vue": "^2.6.6",
+        "vue": "^2.7.16",
         "vue-class-component": "^6.0.0",
         "vue-property-decorator": "^7.0.0",
         "vue-router": "^3.0.1",
-        "vuetify": "^1.5.5"
+        "vuetify": "^2.7.2"
     },
     "devDependencies": {
         "@types/chai": "^4.1.0",
