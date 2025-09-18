@@ -1,0 +1,45 @@
+{
+    "Version": "1.0.0",
+    "LogLevel": "INFO",
+    "LogFilename": "rpm_simulator.log",
+    "Lanes": [
+        {
+            "LaneID": 1,
+            "LaneName": "Lane 1 (Local)",
+            "Enabled": true,
+            "AutoGammaProbability": 0.25,
+            "AutoNeutronProbability": 0.10,
+            "AutoInterval": 45,
+            "RPM": {
+                "IPAddr": "127.0.0.1",
+                "Port": 10001,
+                "GammaBG": 250,
+                "NeutronBG": 2,
+                "GammaNSigma": 6,
+                "NeutronThreshold": 5,
+                "GHThreshold": 450,
+                "GLThreshold": 80,
+                "NHThreshold": 10
+            }
+        },
+        {
+            "LaneID": 2,
+            "LaneName": "Lane 2 (Remote)",
+            "Enabled": true,
+            "AutoGammaProbability": 0.05,
+            "AutoNeutronProbability": 0.05,
+            "AutoInterval": 60,
+            "RPM": {
+                "IPAddr": "0.0.0.0",
+                "Port": 10002,
+                "GammaBG": 220,
+                "NeutronBG": 3,
+                "GammaNSigma": 5,
+                "NeutronThreshold": 6,
+                "GHThreshold": 400,
+                "GLThreshold": 100,
+                "NHThreshold": 12
+            }
+        }
+    ]
+}
